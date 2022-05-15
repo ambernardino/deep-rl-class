@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "==1.4.2"
+numpy = "==1.22.3"
+matplotlib = "==3.5.2"
+pyopengl = "==3.1.6"
+pyopengl-accelerate = "==3.1.5"
+pyvirtualdisplay = "==3.0"
+gym = "==0.21.0"
+stable-baselines3 = "==1.5.0"
+huggingface-sb3 = "==2.0.0"
+tqdm = {file = "https://github.com/tqdm/tqdm/releases/download/v4.62.3/tqdm-4.62.3-py2.py3-none-any.whl"}
+box2d-py = "==2.3.8"
+box2d = "==2.3.2"
+box2d-kengz = "==2.3.3"
+colabgymrender = "==1.0.2"
+pyglet = "==1.5.24"
+
+[dev-packages]
+ipykernel = "==6.12.1"
+cython = "==0.29.28"
+autopep8 = "==1.6.0"
+ipdb = "==0.13.9"
+jupyterlab = "==3.3.2"
+pytest = "==7.1.1"
+black = "==22.3.0"
+
+[requires]
+python_version = "3.9.11"

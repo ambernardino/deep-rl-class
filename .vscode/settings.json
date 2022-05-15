@@ -1,0 +1,13 @@
+{
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "thunder-client.workspaceRelativePath": "api",
+    "thunder-client.saveToWorkspace": true,
+    "thunder-client.saveRequestOnSend": true,
+    "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

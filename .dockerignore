@@ -1,0 +1,8 @@
+data/
+api/
+.vscode/
+freja/
+shared/
+tests/
+
+requirements.txt

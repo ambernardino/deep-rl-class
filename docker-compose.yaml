@@ -1,0 +1,11 @@
+version: "3"
+services:
+    app:
+        image: "hugginface-train-1"
+        entrypoint: pipenv run jupyter lab --allow-root --ip 0.0.0.0 --port 8088
+        volumes:
+            - ./data:/home/ds-user/data
+            - ./logic:/home/ds-user/logic
+            - ./notebooks:/home/ds-user/notebooks
+        ports:
+            - "8088:8088"
