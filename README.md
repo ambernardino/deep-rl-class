@@ -1,6 +1,7 @@
 # Install
 ```
 brew install -y python-opengl ffmpeg
+brew install -y --cask xquartz
 ```
 
 # Running
